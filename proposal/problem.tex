@@ -1,0 +1,10 @@
+The current control plane for the Wide Area Network was developed with the goals of reachability and scalability, among others, in mind. Over the past few decades, due to the growth in the topology of the network, introduction of new technologies and applications, and change in the patterns of traffic have resulted in some goals becoming more relevant than others in the Wide Area. While reachability is no longer a major challenge, best effort delivery service model is no longer enough to fulfill the requirements of many stakeholders in the internet. Recent research from Google~\cite{yap2017taking} and Facebook~\cite{schlinker2017engineering} suggests that a reevaluation of the current service model is required to meet the needs of the evolving internet.
+
+More specifically, despite the growing diversity of applications and their network requirements, the dominant Wide Area Protocol, BGP, essentially treats all traffic between two given hosts equally. However, some applications, such as VR Streaming, Tele-surgery have distinctly different network needs compared to a routine nightly backup service. Ideally, we would want the application to be able to influence the routing choices made in the Wide Area in order to not only enable future applications, but to also utilize the network efficiently.
+
+We believe two key changes in the landscape are vital to our approach
+
+\begin{enumerate}
+\item The proliferation of SDN technologies such as OpenFlow has allowed progmatic, dynamic management of the control plane
+\item The shift in internet traffic patterns has resulted in most traffic flowing between end customers and a few large service/content providers
+\end{enumerate}

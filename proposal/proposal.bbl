@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{yap2017taking}
+K.-K. Yap, M.~Motiwala, J.~Rahe, S.~Padgett, M.~Holliman, G.~Baldus, M.~Hines,
+  T.~Kim, A.~Narayanan, A.~Jain, {\em et~al.}, ``Taking the edge off with
+  espresso: Scale, reliability and programmability for global internet
+  peering,'' in {\em Proceedings of the Conference of the ACM Special Interest
+  Group on Data Communication}, pp.~432--445, ACM, 2017.
+
+\bibitem{schlinker2017engineering}
+B.~Schlinker, H.~Kim, T.~Cui, E.~Katz-Bassett, H.~V. Madhyastha, I.~Cunha,
+  J.~Quinn, S.~Hasan, P.~Lapukhov, and H.~Zeng, ``Engineering egress with edge
+  fabric: steering oceans of content to the world,'' in {\em Proceedings of the
+  Conference of the ACM Special Interest Group on Data Communication},
+  pp.~418--431, ACM, 2017.
+
+\bibitem{esquivel2009routebazaar}
+H.~Esquivel, C.~Muthukrishnan, F.~Niu, S.~Chawla, and A.~Akella, ``Routebazaar:
+  An economic framework for flexible routing,'' {\em Technical Report TR1654,
+  Department of Computer Sciences}, 2009.
+
+\bibitem{hong2013achieving}
+C.-Y. Hong, S.~Kandula, R.~Mahajan, M.~Zhang, V.~Gill, M.~Nanduri, and
+  R.~Wattenhofer, ``Achieving high utilization with software-driven wan,'' in
+  {\em ACM SIGCOMM Computer Communication Review}, vol.~43, pp.~15--26, ACM,
+  2013.
+
+\bibitem{lakshminarayanan2004routing}
+K.~Lakshminarayanan, I.~Stoica, S.~Shenker, and J.~Rexford, {\em Routing as a
+  Service}.
+\newblock Computer Science Division, University of California Berkeley, 2004.
+
+\bibitem{valancius2008mint}
+V.~Valancius, N.~Feamster, R.~Johari, and V.~Vazirani, ``Mint: A market for
+  internet transit,'' in {\em Proceedings of the 2008 ACM CoNEXT Conference},
+  p.~70, ACM, 2008.
+
+\end{thebibliography}

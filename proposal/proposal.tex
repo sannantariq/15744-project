@@ -1,0 +1,80 @@
+\documentclass[dvips,12pt]{article}
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage[noadjust]{cite}
+
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{8.5in}
+
+% These force using more of the margins that is the default style
+
+\begin{document}
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+
+\title{15-744: Project Proposal}
+\author{Joseph Severini and Sannan Tariq}
+\date{\today}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+
+
+\maketitle
+
+% This command causes the title to be created in the document
+
+\section{Problem}
+\input{problem}
+
+
+
+
+
+%\begin{figure}
+%\begin{center}
+%\resizebox{6in}{!}{\includegraphics*{m42.jpg}}
+%\end{center}
+%
+%\caption{The Orion Nebula, M42, recorded with the CDK20N telescope on the night
+%of November 1, 2011. This is a composite of three 100-second photometric images
+%in the Sloan g' (shown as blue), r' (shown as red), and i' (shown as green)
+%bands. The intensities are displayed with logarithmic compression. Click to see
+%the inner regions with square root compression. Highly reddened stars are
+%brighter in the infrared (i') and appear slightly green in these images.
+%\label{m42}}
+%\end{figure}
+
+
+\section{Approach}
+\input{approach}
+
+\section{Related Work}
+\input{relatedWork}
+
+\section{Key Milestones}
+\input{keyMilestones}
+
+\section{Risk/Stretch Goals}
+\input{goals}
+
+\section{Resources Needed}
+\input{resourcesNeeded}
+
+\bibliography{biblio}
+\bibliographystyle{ieeetr}
+
+\end{document}
